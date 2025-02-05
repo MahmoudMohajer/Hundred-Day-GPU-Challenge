@@ -6,7 +6,7 @@ This repository documents my journey through 100 days of GPU programming challen
 
 | Day | Date | Topic/Challenge | Status | Notes |
 |-----|------|----------------|--------|-------|
-| 001 |2025-02-05 | Hello World CUDA | Done | Basic CUDA program setup |
+| [001](./Day001/hello_world.cu) |2025-02-05 | Hello World CUDA | Done | Basic CUDA program setup |
 | 002 | | | | |
 | 003 | | | | |
 | 004 | | | | |
