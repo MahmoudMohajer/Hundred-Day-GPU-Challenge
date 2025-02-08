@@ -41,6 +41,10 @@ int main() {
 
     cudaMemcpy(c_h, c_d, bytes, cudaMemcpyDeviceToHost);
 
+    cudaFree(a_d);
+    cudaFree(b_d);
+    cudaFree(c_d);
+
     for(int i = 0; i < size; i++) {
         if (c_h[i] != a_h[i] + b_h[i]){
             printf("The vector addition is wrong! index: %d a=%0.2f b=%0.2f c=%0.2f\n", i, a_h[i], b_h[i], c_h[i]);
