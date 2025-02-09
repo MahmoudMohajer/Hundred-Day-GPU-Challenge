@@ -10,7 +10,7 @@ This repository documents my journey through 100 days of GPU programming challen
 | [002](./Day002/grid_1D.cu) |2025-02-06 | Grid 1D CUDA | Done |  |
 | [003](./Day003/vector_add.cu) |2025-02-07 | Vector Addition | Done |  |
 | [004](./Day004/benchmarking.cu) |2025-02-08 | Performance Benchmarking | Done | Memory transfer vs kernel execution analysis |
-| 005 | | | | |
+| [005](./Day005/README.md) |2025-02-09 | 2D Matrix Addition | Done |  |
 | 006 | | | | |
 | 007 | | | | |
 | 008 | | | | |
