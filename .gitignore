@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+#nsight compute files
+*.ncu-rep
+*.ncu-proj
