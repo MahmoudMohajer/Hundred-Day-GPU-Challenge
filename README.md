@@ -13,7 +13,7 @@ This repository documents my journey through 100 days of GPU programming challen
 | [005](./Day005/README.md) |2025-02-09 | 2D Matrix Addition | Done |  |
 | [006](./Day006/README.md) |2025-02-10 | Modular Matrix Addition | Done | using device functions |
 | [007](./Day007/README.md) |2025-02-11 | Matrix Addition Performance Analysis | Done | Block size optimization (8x8, 16x16, 32x32) with Nsight profiling |
-| 008 | | | | |
+| 008 | 2025-02-15 | Image Brightness Adjustment using CUDA | Done | CUDA-based image processing with brightness adjustment, host/device memory management, and PGM file I/O |
 | 009 | | | | |
 | 010 | | | | |
 
