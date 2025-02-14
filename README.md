@@ -12,7 +12,7 @@ This repository documents my journey through 100 days of GPU programming challen
 | [004](./Day004/benchmarking.cu) |2025-02-08 | Performance Benchmarking | Done | Memory transfer vs kernel execution analysis |
 | [005](./Day005/README.md) |2025-02-09 | 2D Matrix Addition | Done |  |
 | [006](./Day006/README.md) |2025-02-10 | Modular Matrix Addition | Done | using device functions |
-| 007 | | | | |
+| [007](./Day007/README.md) |2025-02-11 | Matrix Addition Performance Analysis | Done | Block size optimization (8x8, 16x16, 32x32) with Nsight profiling |
 | 008 | | | | |
 | 009 | | | | |
 | 010 | | | | |
