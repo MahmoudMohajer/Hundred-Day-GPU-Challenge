@@ -1,73 +1,22 @@
-# Day 010 - Matrix Multiplication using CUDA
+**First 10 Days - GPU Programming Progress Summary**
 
-## Objective
-Implement a parallel matrix multiplication algorithm using CUDA that efficiently computes the product of two matrices. This project demonstrates basic CUDA programming concepts and parallel computation patterns for fundamental linear algebra operations.
+1. **Core CUDA Fundamentals**  
+   ✅ Day 1-2: Basic kernel setup, thread/block indexing (1D/2D)  
+   ✅ Day 3-4: Memory management (host/device), performance benchmarking (CUDA Events)  
+   ✅ Day 5-6: 2D matrix ops, code modularity with `__device__` functions  
 
-## Concepts Covered
-- Matrix Multiplication Algorithm
-- 2D Grid and Block Organization
-- Shared Memory Considerations
-- Basic CUDA Memory Management
-- Thread Indexing in 2D
+2. **Performance Optimization**  
+   ⚡ Day 4: Identified memory transfer bottlenecks (~98% runtime)  
+   ⚡ Day 7: Block size optimization (8x8 → 32x32) with Nsight profiling  
 
-## Key Components
-1. **Matrix Multiplication Kernel:**
-   - Row and column computation
-   - Element-wise multiplication and accumulation
-   - Proper indexing for matrices
-   - Parallel processing per output element
+3. **Real-World Applications**  
+   🖼️ Day 8: Image processing (brightness adjustment) with PGM I/O  
+   🌀 Day 9: Box blur with boundary handling (configurable kernel size)  
+   🧮 Day 10: Matrix multiplication (2D thread mapping, dot product)  
 
-2. **Memory Management:**
-   - Host and device memory allocation
-   - Matrix data transfer
-   - Proper cleanup of allocated resources
+**Key Progression**  
+`Hello World` → `Vector Ops` → `Image Processing` → `Linear Algebra`  
+*Focus Shift*: Basic syntax → Memory optimization → Real-world applications  
 
-3. **Thread Organization:**
-   - 2D block configuration
-   - Grid dimension calculation
-   - Thread index computation
-
-## Key Learning Points
-1. Understanding matrix multiplication parallelization
-2. Managing 2D thread and block organization
-3. Implementing efficient memory access patterns
-4. Computing grid dimensions for matrices
-5. Basic CUDA memory management
-
-## Building and Running
-1. Compile with nvcc:
-   ```bash
-   nvcc matrix_mul.cu -o matrix_mul
-   ```
-
-2. Run the program:
-   ```bash
-   ./matrix_mul
-   ```
-
-## Implementation Details
-The matrix multiplication kernel processes each output element in parallel, where:
-- Each thread computes one element of the output matrix
-- Thread indices determine which row and column to process
-- The kernel performs dot product of a row from matrix A and a column from matrix B
-- Current implementation works with 3x3 matrices as an example
-
-## Notes
-- Current implementation uses fixed-size 3x3 matrices
-- Uses row-major matrix storage
-- Demonstrates basic CUDA concepts without optimization
-- Could be extended for arbitrary matrix sizes
-- Uses block dimensions of 3x3 for this example
-
-## Results
-The program multiplies two 3x3 matrices and outputs the result. For example:
-- Input Matrix A = [1 2 3; 4 5 6; 7 8 9]
-- Input Matrix B = [1 2 3; 4 5 6; 7 8 9]
-- Output shows the resulting matrix multiplication
-
-## Performance Considerations
-- Simple implementation without shared memory optimization
-- Memory coalescing could be improved
-- Block size could be optimized for larger matrices
-- Memory transfer overhead for small matrices
-- Future optimizations could include shared memory usage and tiling 
+**Tools Mastered**  
+`nvcc` | `cudaMemcpy` | `Nsight` | `PGM I/O` | `2D Grid/Block Design`
