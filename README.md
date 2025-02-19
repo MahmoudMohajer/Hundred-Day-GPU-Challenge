@@ -16,7 +16,7 @@ This repository documents my journey through 100 days of GPU programming challen
 | 008 | 2025-02-15 | Image Brightness Adjustment using CUDA | Done | CUDA-based image processing with brightness adjustment, host/device memory management, and PGM file I/O |
 | [009](./Day009/README.md) | 2025-02-16 | Image Blur using CUDA | Done | Parallel box blur implementation with configurable kernel size, boundary handling, and PGM image processing |
 | [010](./Day010/README.md) | 2025-02-17 | Matrix Multiplication using CUDA | Done | Basic parallel matrix multiplication with 2D grid/block organization |
-| 011 | | | | |
+| [011](./Day011/README.md) | 2025-02-19 | Matrix Multiplication Performance Benchmarking | Done | Systematic performance analysis with different block sizes (8x8 to 32x32) on 1024x1024 matrices |
 | 012 | | | | |
 | 013 | | | | |
 | 014 | | | | |
