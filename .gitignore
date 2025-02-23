@@ -34,3 +34,8 @@
 #nsight compute files
 *.ncu-rep
 *.ncu-proj
+
+#nsight systems
+*.nsys-rep
+
+.vscode/
