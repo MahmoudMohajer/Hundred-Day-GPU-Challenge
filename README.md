@@ -19,7 +19,7 @@ This repository documents my journey through 100 days of GPU programming challen
 | [011](./Day011/README.md) | 2025-02-19 | Matrix Multiplication Performance Benchmarking | Done | Systematic performance analysis with different block sizes (8x8 to 32x32) on 1024x1024 matrices |
 | [012](./Day012/README.md) | 2025-02-20 | Vector Element-wise Multiplication | Done | 1D parallel implementation with performance measurement and result verification |
 | [013](./Day013/README.md) | 2025-02-21 | Synchronous vs Asynchronous Data Transfer | Done | Performance comparison between sync and async data transfer with CUDA streams |
-| 014 | | | | |
+| [014](./Day014/README.md) | 2025-02-22 | CUDA Thread Synchronization and Parallel Reduction | Done | Parallel reduction implementation with thread synchronization, shared memory, and multiple-pass reduction for large arrays |
 | 015 | | | | |
 | 016 | | | | |
 | 017 | | | | |
