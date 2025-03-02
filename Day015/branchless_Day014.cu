@@ -75,5 +75,4 @@ int main() {
     printf("the Sum is %f \n", h_result);
 
     return 0;
-
 }
