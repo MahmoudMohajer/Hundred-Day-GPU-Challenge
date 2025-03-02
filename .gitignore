@@ -39,3 +39,8 @@
 *.nsys-rep
 
 .vscode/
+\@util_build/
+\@util_build/**
+@util_build/
+@util_build/**
+util_profiles/
