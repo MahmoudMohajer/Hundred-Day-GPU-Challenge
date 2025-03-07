@@ -21,8 +21,8 @@ This repository documents my journey through 100 days of GPU programming challen
 | [013](./Day013/README.md) | 2025-02-23 | Synchronous vs Asynchronous Data Transfer | Done | Performance comparison between sync and async data transfer with CUDA streams |
 | [014](./Day014/README.md) | 2025-02-26 | CUDA Thread Synchronization and Parallel Reduction | Done | Parallel reduction implementation with thread synchronization, shared memory, and multiple-pass reduction for large arrays |
 | [015](./Day015/README.md) | 2025-03-02 | Branchless CUDA Parallel Reduction | Done | Performance comparison between branching and branchless implementations, demonstrating that eliminating branches isn't always beneficial |
-| 016 | | | | |
-| 017 | | | | |
+| [016](./Day016/README.md) | 2025-03-06 | CUDA Device Properties | Done | Querying and displaying GPU hardware characteristics using CUDA Runtime API |
+| [017](./Day017/README.md) | 2025-03-07 | Naive Matrix Multiplication | Done | Basic CUDA matrix multiplication implementation without optimizations |
 | 018 | | | | |
 | 019 | | | | |
 | 020 | | | | |
