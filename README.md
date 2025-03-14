@@ -23,7 +23,7 @@ This repository documents my journey through 100 days of GPU programming challen
 | [015](./Day015/README.md) | 2025-03-02 | Branchless CUDA Parallel Reduction | Done | Performance comparison between branching and branchless implementations, demonstrating that eliminating branches isn't always beneficial |
 | [016](./Day016/README.md) | 2025-03-06 | CUDA Device Properties | Done | Querying and displaying GPU hardware characteristics using CUDA Runtime API |
 | [017](./Day017/README.md) | 2025-03-07 | Naive Matrix Multiplication | Done | Basic CUDA matrix multiplication implementation without optimizations |
-| 018 | | | | |
+| [018](./Day018/README.md) | 2025-03-14 | Tiled Matrix Multiplication | Done | Optimized matrix multiplication using shared memory tiling, achieving 1.3x speedup |
 | 019 | | | | |
 | 020 | | | | |
 
